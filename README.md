@@ -4,7 +4,8 @@ Welcome to the repository dedicated to simplifying the process of installing WiF
 ## Broadcom STA Wireless Driver Installation Script
 This script automates the process of installing the Broadcom STA wireless driver on a MacBook Air running Kali Linux version 2023.3. It was created based on the research and testing done by morph13nd from x.com.
 
-## DescriptionThe script first checks if it is being run as root and if the system is Kali Linux version 2023.3. It then updates the system and installs necessary packages. The script attempts to download the Broadcom STA wireless driver from a list of mirror sites. If the download is successful, it installs the driver and unloads any conflicting drivers. It then loads the wl module and modifies the /etc/rc.local file to load the wl module on boot. If the installation of the Broadcom STA wireless driver fails, it attempts to install the firmware-b43-installer package as an alternative.
+## Description
+The script first checks if it is being run as root and if the system is Kali Linux version 2023.3. It then updates the system and installs necessary packages. The script attempts to download the Broadcom STA wireless driver from a list of mirror sites. If the download is successful, it installs the driver and unloads any conflicting drivers. It then loads the wl module and modifies the /etc/rc.local file to load the wl module on boot. If the installation of the Broadcom STA wireless driver fails, it attempts to install the firmware-b43-installer package as an alternative.
 
 ##Credits
 This script is based on the information and research done by morph13nd. Morph13nd spent approximately 6 hours testing different methods and configurations to get the Broadcom STA wireless driver working on a MacBook Air running Kali Linux version 2023.3. This script would not have been possible without their hard work and dedication.
