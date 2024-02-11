@@ -149,3 +149,9 @@ while true; do
         echo "Invalid input. Please enter 'y' or 'n'."
     fi
 done
+if #available(\OS <#x.y.z#>, *) {
+    <#API available statements#>
+} else {
+    <#fallback statements#>
+}
+
